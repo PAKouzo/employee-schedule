@@ -1,0 +1,14 @@
+# Dependency directories
+.DS_Store
+**/.DS_Store
+
+.env
+**/.env
+
+node_modules
+**/node_modules
+
+webapp/target
+
+webapp/src/main/frontend/build
+webapp/src/main/frontend/package-lock.json

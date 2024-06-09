@@ -10,7 +10,6 @@
         "@fullcalendar/rrule": "^6.1.11",
         "@fullcalendar/timegrid": "^6.1.11",
         "@mui/material": "^5.15.15",
-        "@testing-library/jest-dom": "^6.4.2",
         "@testing-library/react": "^15.0.2",
         "@testing-library/user-event": "^14.5.2",
         "dotenv": "^16.4.5",

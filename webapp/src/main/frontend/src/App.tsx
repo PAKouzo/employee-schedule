@@ -3,7 +3,7 @@ import { Admin, CustomRoutes, Resource } from "react-admin";
 
 import polyglotI18nProvider from 'ra-i18n-polyglot';
 import englishMessages from './i18n/en';
-import italianMessages from './i18n/it';
+import customVietnameseMessages from './i18n/vn';
 
 import { Route } from "react-router-dom";
 import {theme} from './theme';
@@ -19,8 +19,8 @@ import customers from './customers';
 import users from './users';
 
 const i18nProvider = polyglotI18nProvider(locale => {
-    if (locale === 'it') {
-        return italianMessages;
+    if (locale === 'vn') {
+        return customVietnameseMessages;
     }
 
     // Always fallback on english
